@@ -5,21 +5,53 @@
     <head>
         <meta charset="UTF-8">
         <title>Barberia Alura</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="Productos.css">
     </head
 
     <body>
 
         <header>
-            <h1><img src="imagenes/logo.png"></h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Productos.html">Productos</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        
+            <div class="caja">
+                <h1><img src="imagenes/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
+        <main>
+
+            <ul class="productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="imagenes/cabello.jpg">
+                    <p class="producto-descrpcion">Con tigera o máquina, a gusto del cliente</p>
+                    <p class="producto-precio">$10.00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="imagenes/barba.jpg">
+                    <p class="producto-descrpcion">Corte y diseño profesional de barba</p>
+                    <p class="producto-precio">$08.00</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="imagenes/cabello+barba.jpg">
+                    <p class="producto-descrpcion">Paquete completo de cabello y barba </p>
+                    <p class="producto-precio">$15.00</p>
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright">&copy Copyright Babería Alura - 2023</p>
+        </footer>
     </body>
 
 </html>
