@@ -153,8 +153,39 @@ td,th{
     padding: 8px 15px;
 }
 
-
-
-
-
 /***** End contacto *****/
+
+/***** index *****/
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em ;
+    margin: 0 0 1em;
+}
+
+.utensilios{
+    width: 120px;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.imagendiferencial{
+    width: 60%;
+}
+
+/***** End index *****/
+
+
